@@ -1,0 +1,108 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/ted/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/ted
+dbus-update-activation-environment: setting USER=ted
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/ted
+dbus-update-activation-environment: setting HOME=/home/ted
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_US
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=ted
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/ted/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+
+(xfce4-session:1175): xfce4-session-WARNING **: 00:05:06.058: xfsm_manager_load_session: Something wrong with /home/ted/.cache/sessions/xfce4-session-ted-VirtualBox:0, Does it exist? Permissions issue?
+
+(polkit-gnome-authentication-agent-1:1229): GLib-CRITICAL **: 00:05:06.376: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1229): polkit-gnome-1-WARNING **: 00:05:06.376: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(nm-applet:1242): Gtk-WARNING **: 00:05:07.076: Can't set a parent on widget which has a parent
+
+(nm-applet:1242): Gdk-CRITICAL **: 00:05:07.174: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(wrapper-2.0:1315): GLib-GIO-CRITICAL **: 00:05:07.232: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1315): GLib-GIO-CRITICAL **: 00:05:07.233: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1315): GLib-GObject-WARNING **: 00:05:07.233: invalid (NULL) pointer instance
+
+(wrapper-2.0:1315): GLib-GObject-CRITICAL **: 00:05:07.233: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1315): Gtk-WARNING **: 00:05:07.233: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+** (wrapper-2.0:1339): WARNING **: 00:05:07.287: No outputs have backlight property
+
+(wrapper-2.0:1315): Gtk-WARNING **: 00:05:07.297: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1342): Gtk-WARNING **: 00:05:07.387: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1306): Gtk-WARNING **: 00:05:07.439: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1339): Gtk-WARNING **: 00:05:07.470: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+(xfwm4:1186): xfwm4-WARNING **: 00:22:56.032: output size (1920x1000) and logical screen size (1920x960) do not match
+
+(xfwm4:1186): xfwm4-WARNING **: 17:03:09.137: output size (1920x950) and logical screen size (1920x1000) do not match
+
+(xfwm4:1186): xfwm4-WARNING **: 18:23:04.858: output size (800x600) and logical screen size (1920x950) do not match
+
+(xfwm4:1186): xfwm4-WARNING **: 18:23:10.024: output size (1920x960) and logical screen size (800x600) do not match
+thunar-volman: Unable to mount the device.
+
+(nm-applet:1242): Gtk-CRITICAL **: 22:33:21.496: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1242): Gtk-CRITICAL **: 22:33:21.497: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1242): Gtk-WARNING **: 22:33:21.500: Can't set a parent on widget which has a parent
+
+(nm-applet:1242): Gtk-CRITICAL **: 22:33:23.534: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1242): Gtk-CRITICAL **: 22:33:23.534: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1242): Gtk-WARNING **: 22:33:23.535: Can't set a parent on widget which has a parent
+
+(nm-applet:1242): Gtk-CRITICAL **: 22:33:23.550: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1242): Gtk-CRITICAL **: 22:33:23.550: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1242): Gtk-WARNING **: 22:33:23.562: Can't set a parent on widget which has a parent
+
+(nm-applet:1242): Gtk-CRITICAL **: 22:33:23.581: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1242): Gtk-CRITICAL **: 22:33:23.581: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1242): Gtk-WARNING **: 22:33:23.583: Can't set a parent on widget which has a parent
+
+(nm-applet:1242): Gtk-CRITICAL **: 22:33:23.590: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1242): Gtk-CRITICAL **: 22:33:23.590: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1242): Gtk-WARNING **: 22:33:23.592: Can't set a parent on widget which has a parent

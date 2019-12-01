@@ -1,0 +1,90 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/ted/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/ted
+dbus-update-activation-environment: setting USER=ted
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/ted
+dbus-update-activation-environment: setting HOME=/home/ted
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_US
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=ted
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/ted/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+
+(xfce4-session:1029): xfce4-session-WARNING **: 23:51:33.931: xfsm_manager_load_session: Something wrong with /home/ted/.cache/sessions/xfce4-session-ted-VirtualBox:0, Does it exist? Permissions issue?
+
+(xfwm4:1040): GLib-CRITICAL **: 23:51:34.036: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1070): GLib-CRITICAL **: 23:51:34.239: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1070): polkit-gnome-1-WARNING **: 23:51:34.250: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:1051): GLib-CRITICAL **: 23:51:34.326: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfsettingsd:1051): GLib-GObject-CRITICAL **: 23:51:34.328: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(xfsettingsd:1051): GLib-GObject-CRITICAL **: 23:51:34.329: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(nm-applet:1090): Gtk-WARNING **: 23:51:35.474: Can't set a parent on widget which has a parent
+
+(wrapper-2.0:1163): GLib-GIO-CRITICAL **: 23:51:35.479: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1163): GLib-GIO-CRITICAL **: 23:51:35.479: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1163): GLib-GObject-WARNING **: 23:51:35.479: invalid (NULL) pointer instance
+
+(wrapper-2.0:1163): GLib-GObject-CRITICAL **: 23:51:35.479: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1163): Gtk-WARNING **: 23:51:35.479: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+** (wrapper-2.0:1166): WARNING **: 23:51:35.480: No outputs have backlight property
+
+(wrapper-2.0:1163): Gtk-WARNING **: 23:51:35.548: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(nm-applet:1090): Gdk-CRITICAL **: 23:51:35.672: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(wrapper-2.0:1166): Gtk-WARNING **: 23:51:35.713: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:1167): Gtk-WARNING **: 23:51:35.801: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1155): Gtk-WARNING **: 23:51:36.020: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+Gtk-Message: 23:51:37.030: GtkDialog mapped without a transient parent. This is discouraged.
+WARNING:root:can not import unity GI Namespace Dbusmenu not available
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+WARNING:root:timeout reached, exiting
+
+(update-notifier:1057): GLib-GIO-CRITICAL **: 23:52:15.231: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+/var/lib/dpkg/lock: 
+
+(xfwm4:1040): xfwm4-WARNING **: 00:04:29.291: output size (1920x960) and logical screen size (800x600) do not match
+xfce4-session-Message: 00:04:48.681: Got disconnected from D-Bus.  Unless this happened during session shutdown, this is probably a bad thing.
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
